@@ -11,6 +11,19 @@ namespace JSAM.BusinessLogic
     {
         public JobInformation() { }
 
+        /// <summary>
+        /// Constructor for Job objects
+        /// </summary>
+        /// <param name="jobNumber"></param>
+        /// <param name="jobName"></param>
+        /// <param name="manpowerNeeds"></param>
+        /// <param name="startDate"></param>
+        /// <param name="endDate"></param>
+        /// <param name="trade1"></param>
+        /// <param name="trade2"></param>
+        /// <param name="trade3"></param>
+        /// <param name="trade4"></param>
+        /// <param name="trade5"></param>
         public JobInformation(int jobNumber, string jobName, int manpowerNeeds, DateTime startDate, DateTime endDate,
             Trades trade1, Trades trade2 = Trades.None, Trades trade3 = Trades.None, Trades trade4 = Trades.None, Trades trade5 = Trades.None)
         {
@@ -41,6 +54,10 @@ namespace JSAM.BusinessLogic
         #endregion
 
         #region Methods
+        /// <summary>
+        /// ToString override for WPF list boxes
+        /// </summary>
+        /// <returns></returns>
         public override string ToString()
         {
             string jobInformation = "";
@@ -52,11 +69,11 @@ namespace JSAM.BusinessLogic
                     $"Manpower Needs:\t{ManpowerNeeds}\n" +
                     $"Current Manpower:\t{CurrentManpower}\n";
                 
-                foreach(Trades trade in TradesNeeded)
+                foreach(Trades trade in TradesNeeded) //Itterate trades to find all trades needed on job
                 {
                     if(trade != Trades.None)
                     {
-                        jobInformation += $"Required Trade:\t{trade}\n";
+                        jobInformation += $"Required Trade:\t{trade}\n"; //Add each trade to job info displayed in list box
                     }
                 }
             }
@@ -64,6 +81,10 @@ namespace JSAM.BusinessLogic
             return jobInformation;
         }
 
+        /// <summary>
+        /// Itterates list of empoloyees to check job numbers and get a count of employees currently working 
+        /// on that job
+        /// </summary>
         public void SetCurrentManpower()
         {
             {
@@ -73,7 +94,7 @@ namespace JSAM.BusinessLogic
                 {
                     if (this.JobNumber == employee.CurrentJob)
                     {
-                        employeeCount++;
+                        employeeCount++; //Increments employee count
                     }
                 }
 

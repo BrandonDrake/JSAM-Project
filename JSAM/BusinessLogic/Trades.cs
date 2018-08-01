@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace JSAM.BusinessLogic
 {
+    /// <summary>
+    /// Common trades for employees
+    /// </summary>
     public enum Trades
     {
         Carpentry,

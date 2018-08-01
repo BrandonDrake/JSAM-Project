@@ -9,7 +9,9 @@ namespace JSAM.Repositories
 {
     public class EmployeeRepository
     {
-       
+        /// <summary>
+        /// Simulates importing employee data from a database and creates the employee objects
+        /// </summary>
         public static void EmployeeList()
         {
                 

@@ -25,10 +25,15 @@ namespace JSAM
         public MainWindow()
         {
             InitializeComponent();
-            EmployeeRepository.EmployeeList();
+            EmployeeRepository.EmployeeList(); //Creates new employee list for class
         }
 
         #region Employee Event Handlers
+        /// <summary>
+        /// Generates the list of available employees
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void Button_Click_GenerateEmployeeList(object sender, RoutedEventArgs e)
         {
             new EmployeeRepository();
@@ -43,6 +48,11 @@ namespace JSAM
             }
         }
 
+        /// <summary>
+        /// Shows the selected employees current job in a message box
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void Button_Click_ShowCurrentJob(object sender, RoutedEventArgs e)
         {
             Employee employee = (Employee)EmployeeList.SelectedItem;
@@ -56,6 +66,11 @@ namespace JSAM
         } 
         #endregion
 
+        /// <summary>
+        /// Generate a list of all current jobs
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void Button_Click_GenerateJobList(object sender, RoutedEventArgs e)
         {
             new JobRepository();
@@ -78,12 +93,17 @@ namespace JSAM
             }
         }
 
+        /// <summary>
+        /// Updates the selected employees current job and assigns to a new job
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void Button_Click_UpdateJob(object sender, RoutedEventArgs e)
         {
             var employee = (Employee)EmployeeList.SelectedItem;
             int newJobNumber;
 
-            if(int.TryParse(NewJobNumber.Text, out newJobNumber))
+            if(int.TryParse(NewJobNumber.Text, out newJobNumber)) //Ensure user entered a number
             {
                 employee.UpdateJob(employee.EmployeeID, newJobNumber);
                 MessageBox.Show($"{employee.FullName} job assignment updated to {newJobNumber}.");
@@ -94,10 +114,16 @@ namespace JSAM
             }
          
             NewJobNumber.Text = "Enter New Job Number";
-            Button_Click_GenerateEmployeeList(sender, e);
-            Button_Click_GenerateJobList(sender, e);
+            Button_Click_GenerateEmployeeList(sender, e); // Button call to update list box 
+            Button_Click_GenerateJobList(sender, e); // Button call to update job list box
         }
 
+        /// <summary>
+        /// When a new employee is selected in list box, updates the name of the selected 
+        /// employee for the job update functionality
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void EmployeeList_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             var currentSelection = (Employee)EmployeeList.SelectedItem;

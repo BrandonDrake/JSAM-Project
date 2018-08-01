@@ -9,6 +9,10 @@ namespace JSAM.Repositories
 {
     class JobRepository
     {
+        /// <summary>
+        /// Simulates importing job information from a database and creates job objects
+        /// </summary>
+        /// <returns></returns>
         public static List<JobInformation> JobList()
         {
             var jobList = new List<JobInformation>()
