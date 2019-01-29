@@ -54,8 +54,6 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="BusinessLogic\Address.cs" />
-    <Compile Include="BusinessLogic\Trades.cs" />
     <Compile Include="Repositories\EmployeeRepository.cs" />
     <Compile Include="Repositories\JobRepository.cs" />
     <Page Include="MainWindow.xaml">

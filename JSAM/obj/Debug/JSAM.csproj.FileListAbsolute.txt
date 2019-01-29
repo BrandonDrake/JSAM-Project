@@ -13,3 +13,33 @@ d:\Documents\C# Programming\Visual Studio Projects\JSAM\JSAM\obj\Debug\JSAM.cspr
 d:\Documents\C# Programming\Visual Studio Projects\JSAM\JSAM\obj\Debug\JSAM.csproj.CoreCompileInputs.cache
 d:\Documents\C# Programming\Visual Studio Projects\JSAM\JSAM\obj\Debug\JSAM.exe
 d:\Documents\C# Programming\Visual Studio Projects\JSAM\JSAM\obj\Debug\JSAM.pdb
+C:\Users\Brandon_Laptop\OneDrive\C# Programming\Visual Studio Projects\JSAM\JSAM\bin\Debug\JSAM.exe.config
+C:\Users\Brandon_Laptop\OneDrive\C# Programming\Visual Studio Projects\JSAM\JSAM\bin\Debug\JSAM.exe
+C:\Users\Brandon_Laptop\OneDrive\C# Programming\Visual Studio Projects\JSAM\JSAM\bin\Debug\JSAM.pdb
+C:\Users\Brandon_Laptop\OneDrive\C# Programming\Visual Studio Projects\JSAM\JSAM\obj\Debug\JSAM.csprojAssemblyReference.cache
+C:\Users\Brandon_Laptop\OneDrive\C# Programming\Visual Studio Projects\JSAM\JSAM\obj\Debug\MainWindow.g.cs
+C:\Users\Brandon_Laptop\OneDrive\C# Programming\Visual Studio Projects\JSAM\JSAM\obj\Debug\App.g.cs
+C:\Users\Brandon_Laptop\OneDrive\C# Programming\Visual Studio Projects\JSAM\JSAM\obj\Debug\JSAM_MarkupCompile.cache
+C:\Users\Brandon_Laptop\OneDrive\C# Programming\Visual Studio Projects\JSAM\JSAM\obj\Debug\JSAM_MarkupCompile.lref
+C:\Users\Brandon_Laptop\OneDrive\C# Programming\Visual Studio Projects\JSAM\JSAM\obj\Debug\MainWindow.baml
+C:\Users\Brandon_Laptop\OneDrive\C# Programming\Visual Studio Projects\JSAM\JSAM\obj\Debug\JSAM.g.resources
+C:\Users\Brandon_Laptop\OneDrive\C# Programming\Visual Studio Projects\JSAM\JSAM\obj\Debug\JSAM.Properties.Resources.resources
+C:\Users\Brandon_Laptop\OneDrive\C# Programming\Visual Studio Projects\JSAM\JSAM\obj\Debug\JSAM.csproj.GenerateResource.cache
+C:\Users\Brandon_Laptop\OneDrive\C# Programming\Visual Studio Projects\JSAM\JSAM\obj\Debug\JSAM.csproj.CoreCompileInputs.cache
+C:\Users\Brandon_Laptop\OneDrive\C# Programming\Visual Studio Projects\JSAM\JSAM\obj\Debug\JSAM.exe
+C:\Users\Brandon_Laptop\OneDrive\C# Programming\Visual Studio Projects\JSAM\JSAM\obj\Debug\JSAM.pdb
+C:\Users\Brandon_Laptop\Documents\C# Projects\JSAM\JSAM\bin\Debug\JSAM.exe.config
+C:\Users\Brandon_Laptop\Documents\C# Projects\JSAM\JSAM\bin\Debug\JSAM.exe
+C:\Users\Brandon_Laptop\Documents\C# Projects\JSAM\JSAM\bin\Debug\JSAM.pdb
+C:\Users\Brandon_Laptop\Documents\C# Projects\JSAM\JSAM\obj\Debug\JSAM.csprojAssemblyReference.cache
+C:\Users\Brandon_Laptop\Documents\C# Projects\JSAM\JSAM\obj\Debug\MainWindow.g.cs
+C:\Users\Brandon_Laptop\Documents\C# Projects\JSAM\JSAM\obj\Debug\App.g.cs
+C:\Users\Brandon_Laptop\Documents\C# Projects\JSAM\JSAM\obj\Debug\JSAM_MarkupCompile.cache
+C:\Users\Brandon_Laptop\Documents\C# Projects\JSAM\JSAM\obj\Debug\JSAM_MarkupCompile.lref
+C:\Users\Brandon_Laptop\Documents\C# Projects\JSAM\JSAM\obj\Debug\MainWindow.baml
+C:\Users\Brandon_Laptop\Documents\C# Projects\JSAM\JSAM\obj\Debug\JSAM.g.resources
+C:\Users\Brandon_Laptop\Documents\C# Projects\JSAM\JSAM\obj\Debug\JSAM.Properties.Resources.resources
+C:\Users\Brandon_Laptop\Documents\C# Projects\JSAM\JSAM\obj\Debug\JSAM.csproj.GenerateResource.cache
+C:\Users\Brandon_Laptop\Documents\C# Projects\JSAM\JSAM\obj\Debug\JSAM.csproj.CoreCompileInputs.cache
+C:\Users\Brandon_Laptop\Documents\C# Projects\JSAM\JSAM\obj\Debug\JSAM.exe
+C:\Users\Brandon_Laptop\Documents\C# Projects\JSAM\JSAM\obj\Debug\JSAM.pdb

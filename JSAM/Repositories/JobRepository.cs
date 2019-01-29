@@ -1,9 +1,6 @@
-﻿using System;
+﻿using JSAM.BusinessLogic;
+using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using JSAM.BusinessLogic;
 
 namespace JSAM.Repositories
 {
@@ -23,10 +20,7 @@ namespace JSAM.Repositories
                     jobName: "Nestle",
                     manpowerNeeds: 7,
                     startDate: new DateTime(2017, 4, 12),
-                    endDate: new DateTime (2019, 2, 15),
-                    trade1: Trades.Steel,
-                    trade2: Trades.Masonry,
-                    trade3: Trades.Concrete
+                    endDate: new DateTime (2019, 2, 15)
                 ),
                 new JobInformation
                 (
@@ -34,9 +28,7 @@ namespace JSAM.Repositories
                     jobName: "Bunge",
                     manpowerNeeds: 4,
                     startDate: DateTime.Now,
-                    endDate: new DateTime (2019, 4, 15),
-                    trade1: Trades.Steel,
-                    trade2: Trades.Concrete
+                    endDate: new DateTime (2019, 4, 15)
                 ),
                 new JobInformation
                 (
@@ -44,9 +36,7 @@ namespace JSAM.Repositories
                     jobName: "Gundlach",
                     manpowerNeeds: 2,
                     startDate: new DateTime(2018, 2, 25),
-                    endDate: new DateTime (2018, 8, 31),
-                    trade1: Trades.Carpentry,
-                    trade2: Trades.Drywall
+                    endDate: new DateTime (2018, 8, 31)
                 ),
                 new JobInformation
                 (
@@ -54,9 +44,7 @@ namespace JSAM.Repositories
                     jobName: "Pepperidge Farms",
                     manpowerNeeds: 1,
                     startDate: new DateTime(2018, 7, 30),
-                    endDate: new DateTime (2018, 8, 2),
-                    trade1: Trades.Steel,
-                    trade2: Trades.Concrete                    
+                    endDate: new DateTime (2018, 8, 2)
                 ),
 
             };

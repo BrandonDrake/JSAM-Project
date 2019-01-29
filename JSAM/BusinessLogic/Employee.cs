@@ -1,25 +1,91 @@
-﻿using System;
+﻿using JSAM.Repositories;
+using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
+using System.ComponentModel;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using JSAM.Repositories;
+using System.Windows;
 
 namespace JSAM.BusinessLogic
 {
-    public class Employee
+    public class Employee : INotifyPropertyChanged
     {
         #region Properties
-        public static List<Employee> employeeList = new List<Employee>();
-        public int EmployeeID { get; set; }
-        public string FirstName { get; set; }
-        public string LastName { get; set; }
-        public bool IsAvailable { get; set; }
-        public DateTime HireDate { get; set; }
-        public Trades EmployeeTrade { get; set; }
-        public int CurrentJob { get; set; }
-        public Address EmployeeAddress { get; set; }
+       
+        private int _employeeID;
+        private string _firstName;
+        private string _lastName;
+        private bool _isAvailable;
+        private int _currentJob;
+       
+        public int EmployeeID
+        {
+            get
+            {
+                return _employeeID;
+            }
+            set
+            {
+                _employeeID = value;
+                PropertyChanged(this, new PropertyChangedEventArgs("EmployeeID"));
+            }
+        }
+        public string FirstName
+        {
+            get
+            {
+                return _firstName;
+            }
+            set
+            {
+                _firstName = value;
+                PropertyChanged(this, new PropertyChangedEventArgs("FirstName"));
+            }
+        }
+        public string LastName
+        {
+            get
+            {
+                return _lastName;
+            }
+            set
+            {
+                _lastName = value;
+                PropertyChanged(this, new PropertyChangedEventArgs("LastName"));
+            }
+        }
+        public bool IsAvailable
+        {
+            get
+            {
+                return _isAvailable;
+            }
+            set
+            {
+                _isAvailable = value;
+                PropertyChanged(this, new PropertyChangedEventArgs("IsAvailable"));
+            }
+        }
+        public DateTime HireDate { get; }
+        public int CurrentJob
+        {
+            get
+            {
+                return _currentJob;
+            }
+            set
+            {
+                _currentJob = value;
+                PropertyChanged(this, new PropertyChangedEventArgs("CurrentJob"));
+            }
+        }
         public string FullName { get; set; }
+
+
+
+
+
+
         #endregion
 
 
@@ -27,28 +93,26 @@ namespace JSAM.BusinessLogic
         #region Constructors
         public Employee() { }
 
-        public Employee(int employeeID, string firstName, string lastName, bool isAvailable, DateTime hireDate, Trades trade, int jobNumber)
+        public Employee(int employeeID, string firstName, string lastName, bool isAvailable, DateTime hireDate, int jobNumber)
         {
             EmployeeID = employeeID;
             FirstName = firstName;
             LastName = lastName;
             IsAvailable = isAvailable;
             HireDate = hireDate;
-            EmployeeTrade = trade;
             CurrentJob = jobNumber;
             CreateFullName();
-            employeeList.Add(this);
         }
         #endregion
 
         #region Methods
+
+        public event PropertyChangedEventHandler PropertyChanged = delegate { };
+
         /// <summary>
         /// Use first name and last name properties to concat full name
         /// </summary>
-        private void CreateFullName()
-        {
-            FullName = $"{LastName}, {FirstName}";
-        }
+        private void CreateFullName() => FullName = $"{LastName}, {FirstName}";
 
         /// <summary>
         /// Defines which attributes to display inteh WPF Employee ListBox
@@ -59,30 +123,9 @@ namespace JSAM.BusinessLogic
         {
             string attributes;
 
-            attributes = $"Employee Name:\t{FullName}\n" +
-                $"Years of Service:\t{DateTime.Now.Year - HireDate.Year}\n" +
-                $"Trade:\t\t{EmployeeTrade}\n";
+            attributes = $"{FullName}";
 
             return attributes;
-        }
-
-        /// <summary>
-        /// Updates the selected employee in the Employee ListBox to a new job number
-        /// and set the employee availability to false
-        /// </summary>
-        /// <param name="employeeID"></param>
-        /// <param name="jobNumber"></param>
-        public void UpdateJob(int employeeID, int jobNumber)
-        {
-            for (int i = 0; i < employeeList.Count(); i++)
-            {
-                if (employeeList[i].EmployeeID == employeeID)
-                {
-                    employeeList[i].CurrentJob = jobNumber;
-                    employeeList[i].IsAvailable = false;
-                    continue;
-                }
-            }
         }
 
         /// <summary>
@@ -94,7 +137,7 @@ namespace JSAM.BusinessLogic
             string attributes = ShowAttributes(this);
 
             return attributes;
-        } 
+        }
         #endregion
 
     }
