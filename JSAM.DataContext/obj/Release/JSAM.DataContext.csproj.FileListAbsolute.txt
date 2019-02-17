@@ -1,0 +1,15 @@
+C:\Users\Brandon_Laptop\Documents\C# Projects\JSAM\JSAM.DataContext\bin\Release\JSAM.DataContext.dll.config
+C:\Users\Brandon_Laptop\Documents\C# Projects\JSAM\JSAM.DataContext\bin\Release\JSAM.DataContext.dll
+C:\Users\Brandon_Laptop\Documents\C# Projects\JSAM\JSAM.DataContext\bin\Release\JSAM.DataContext.pdb
+C:\Users\Brandon_Laptop\Documents\C# Projects\JSAM\JSAM.DataContext\bin\Release\EntityFramework.dll
+C:\Users\Brandon_Laptop\Documents\C# Projects\JSAM\JSAM.DataContext\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\Brandon_Laptop\Documents\C# Projects\JSAM\JSAM.DataContext\bin\Release\JSAM.exe
+C:\Users\Brandon_Laptop\Documents\C# Projects\JSAM\JSAM.DataContext\bin\Release\JSAM.pdb
+C:\Users\Brandon_Laptop\Documents\C# Projects\JSAM\JSAM.DataContext\bin\Release\JSAM.exe.config
+C:\Users\Brandon_Laptop\Documents\C# Projects\JSAM\JSAM.DataContext\bin\Release\EntityFramework.xml
+C:\Users\Brandon_Laptop\Documents\C# Projects\JSAM\JSAM.DataContext\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\Brandon_Laptop\Documents\C# Projects\JSAM\JSAM.DataContext\obj\Release\JSAM.DataContext.csprojAssemblyReference.cache
+C:\Users\Brandon_Laptop\Documents\C# Projects\JSAM\JSAM.DataContext\obj\Release\JSAM.DataContext.csproj.CoreCompileInputs.cache
+C:\Users\Brandon_Laptop\Documents\C# Projects\JSAM\JSAM.DataContext\obj\Release\JSAM.DataContext.csproj.CopyComplete
+C:\Users\Brandon_Laptop\Documents\C# Projects\JSAM\JSAM.DataContext\obj\Release\JSAM.DataContext.dll
+C:\Users\Brandon_Laptop\Documents\C# Projects\JSAM\JSAM.DataContext\obj\Release\JSAM.DataContext.pdb

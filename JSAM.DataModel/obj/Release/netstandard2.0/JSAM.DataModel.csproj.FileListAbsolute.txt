@@ -1,0 +1,6 @@
+C:\Users\Brandon_Laptop\Documents\C# Projects\JSAM\JSAM.DataModel\bin\Release\netstandard2.0\JSAM.DataModel.deps.json
+C:\Users\Brandon_Laptop\Documents\C# Projects\JSAM\JSAM.DataModel\bin\Release\netstandard2.0\JSAM.DataModel.dll
+C:\Users\Brandon_Laptop\Documents\C# Projects\JSAM\JSAM.DataModel\obj\Release\netstandard2.0\JSAM.DataModel.csprojAssemblyReference.cache
+C:\Users\Brandon_Laptop\Documents\C# Projects\JSAM\JSAM.DataModel\obj\Release\netstandard2.0\JSAM.DataModel.csproj.CoreCompileInputs.cache
+C:\Users\Brandon_Laptop\Documents\C# Projects\JSAM\JSAM.DataModel\obj\Release\netstandard2.0\JSAM.DataModel.AssemblyInfoInputs.cache
+C:\Users\Brandon_Laptop\Documents\C# Projects\JSAM\JSAM.DataModel\obj\Release\netstandard2.0\JSAM.DataModel.AssemblyInfo.cs

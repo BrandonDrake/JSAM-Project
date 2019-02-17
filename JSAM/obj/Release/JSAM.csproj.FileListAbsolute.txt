@@ -1,0 +1,15 @@
+C:\Users\Brandon_Laptop\Documents\C# Projects\JSAM\JSAM\bin\Release\JSAM.exe.config
+C:\Users\Brandon_Laptop\Documents\C# Projects\JSAM\JSAM\bin\Release\JSAM.exe
+C:\Users\Brandon_Laptop\Documents\C# Projects\JSAM\JSAM\bin\Release\JSAM.pdb
+C:\Users\Brandon_Laptop\Documents\C# Projects\JSAM\JSAM\obj\Release\JSAM.csprojAssemblyReference.cache
+C:\Users\Brandon_Laptop\Documents\C# Projects\JSAM\JSAM\obj\Release\MainWindow.g.cs
+C:\Users\Brandon_Laptop\Documents\C# Projects\JSAM\JSAM\obj\Release\App.g.cs
+C:\Users\Brandon_Laptop\Documents\C# Projects\JSAM\JSAM\obj\Release\JSAM_MarkupCompile.cache
+C:\Users\Brandon_Laptop\Documents\C# Projects\JSAM\JSAM\obj\Release\JSAM_MarkupCompile.lref
+C:\Users\Brandon_Laptop\Documents\C# Projects\JSAM\JSAM\obj\Release\MainWindow.baml
+C:\Users\Brandon_Laptop\Documents\C# Projects\JSAM\JSAM\obj\Release\JSAM.g.resources
+C:\Users\Brandon_Laptop\Documents\C# Projects\JSAM\JSAM\obj\Release\JSAM.Properties.Resources.resources
+C:\Users\Brandon_Laptop\Documents\C# Projects\JSAM\JSAM\obj\Release\JSAM.csproj.GenerateResource.cache
+C:\Users\Brandon_Laptop\Documents\C# Projects\JSAM\JSAM\obj\Release\JSAM.csproj.CoreCompileInputs.cache
+C:\Users\Brandon_Laptop\Documents\C# Projects\JSAM\JSAM\obj\Release\JSAM.exe
+C:\Users\Brandon_Laptop\Documents\C# Projects\JSAM\JSAM\obj\Release\JSAM.pdb

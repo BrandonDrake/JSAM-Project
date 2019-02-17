@@ -35,7 +35,6 @@ C:\Users\Brandon_Laptop\Documents\C# Projects\JSAM\JSAM\obj\Debug\JSAM.csprojAss
 C:\Users\Brandon_Laptop\Documents\C# Projects\JSAM\JSAM\obj\Debug\MainWindow.g.cs
 C:\Users\Brandon_Laptop\Documents\C# Projects\JSAM\JSAM\obj\Debug\App.g.cs
 C:\Users\Brandon_Laptop\Documents\C# Projects\JSAM\JSAM\obj\Debug\JSAM_MarkupCompile.cache
-C:\Users\Brandon_Laptop\Documents\C# Projects\JSAM\JSAM\obj\Debug\JSAM_MarkupCompile.lref
 C:\Users\Brandon_Laptop\Documents\C# Projects\JSAM\JSAM\obj\Debug\MainWindow.baml
 C:\Users\Brandon_Laptop\Documents\C# Projects\JSAM\JSAM\obj\Debug\JSAM.g.resources
 C:\Users\Brandon_Laptop\Documents\C# Projects\JSAM\JSAM\obj\Debug\JSAM.Properties.Resources.resources
@@ -43,3 +42,13 @@ C:\Users\Brandon_Laptop\Documents\C# Projects\JSAM\JSAM\obj\Debug\JSAM.csproj.Ge
 C:\Users\Brandon_Laptop\Documents\C# Projects\JSAM\JSAM\obj\Debug\JSAM.csproj.CoreCompileInputs.cache
 C:\Users\Brandon_Laptop\Documents\C# Projects\JSAM\JSAM\obj\Debug\JSAM.exe
 C:\Users\Brandon_Laptop\Documents\C# Projects\JSAM\JSAM\obj\Debug\JSAM.pdb
+C:\Users\Brandon_Laptop\Documents\C# Projects\JSAM\JSAM\bin\Debug\EntityFramework.dll
+C:\Users\Brandon_Laptop\Documents\C# Projects\JSAM\JSAM\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Brandon_Laptop\Documents\C# Projects\JSAM\JSAM\bin\Debug\JSAM.Classes.dll
+C:\Users\Brandon_Laptop\Documents\C# Projects\JSAM\JSAM\bin\Debug\JSAM.DataContext.dll
+C:\Users\Brandon_Laptop\Documents\C# Projects\JSAM\JSAM\bin\Debug\JSAM.Classes.pdb
+C:\Users\Brandon_Laptop\Documents\C# Projects\JSAM\JSAM\bin\Debug\JSAM.DataContext.pdb
+C:\Users\Brandon_Laptop\Documents\C# Projects\JSAM\JSAM\bin\Debug\JSAM.DataContext.dll.config
+C:\Users\Brandon_Laptop\Documents\C# Projects\JSAM\JSAM\bin\Debug\EntityFramework.xml
+C:\Users\Brandon_Laptop\Documents\C# Projects\JSAM\JSAM\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Brandon_Laptop\Documents\C# Projects\JSAM\JSAM\obj\Debug\JSAM.csproj.CopyComplete

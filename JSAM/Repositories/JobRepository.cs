@@ -1,6 +1,8 @@
-﻿using JSAM.BusinessLogic;
+﻿using JSAM.Classes;
+using JSAM.DataContext;
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 
 namespace JSAM.Repositories
 {
@@ -10,37 +12,37 @@ namespace JSAM.Repositories
         /// Simulates importing job information from a database and creates job objects
         /// </summary>
         /// <returns></returns>
-        public static List<JobInformation> JobList()
+        public static ObservableCollection<Jobs> JobList()
         {
-            var jobList = new List<JobInformation>()
+            var jobList = new ObservableCollection<Jobs>()
             {
-                new JobInformation
+                new Jobs
                 (
-                    jobNumber: 17104,
+                    Id: 4,
                     jobName: "Nestle",
                     manpowerNeeds: 7,
                     startDate: new DateTime(2017, 4, 12),
                     endDate: new DateTime (2019, 2, 15)
                 ),
-                new JobInformation
+                new Jobs
                 (
-                    jobNumber: 18001,
+                    Id: 1,
                     jobName: "Bunge",
                     manpowerNeeds: 4,
                     startDate: DateTime.Now,
                     endDate: new DateTime (2019, 4, 15)
                 ),
-                new JobInformation
+                new Jobs
                 (
-                    jobNumber: 18002,
+                    Id: 2,
                     jobName: "Gundlach",
                     manpowerNeeds: 2,
                     startDate: new DateTime(2018, 2, 25),
                     endDate: new DateTime (2018, 8, 31)
                 ),
-                new JobInformation
+                new Jobs
                 (
-                    jobNumber: 18003,
+                    Id: 3,
                     jobName: "Pepperidge Farms",
                     manpowerNeeds: 1,
                     startDate: new DateTime(2018, 7, 30),
@@ -48,6 +50,15 @@ namespace JSAM.Repositories
                 ),
 
             };
+
+            //foreach (Jobs job in jobList)
+            //{
+            //    using (var context = new JSAMContext())
+            //    {
+            //        context.Jobs.Add(job);
+            //        context.SaveChanges();
+            //    }
+            //}
 
             return jobList;
         }

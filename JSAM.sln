@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.27703.2035
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JSAM", "JSAM\JSAM.csproj", "{3AEDE379-6C83-455F-8544-CC8FA00A9C89}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JSAM.DataContext", "JSAM.DataContext\JSAM.DataContext.csproj", "{3CBC0982-E128-4DA3-8C33-BE2FDB0E1388}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JSAM.Classes", "JSAM.Classes\JSAM.Classes.csproj", "{AABA46FE-C9BE-4905-B5F6-A3296BD18122}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{3AEDE379-6C83-455F-8544-CC8FA00A9C89}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3AEDE379-6C83-455F-8544-CC8FA00A9C89}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3AEDE379-6C83-455F-8544-CC8FA00A9C89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CBC0982-E128-4DA3-8C33-BE2FDB0E1388}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CBC0982-E128-4DA3-8C33-BE2FDB0E1388}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CBC0982-E128-4DA3-8C33-BE2FDB0E1388}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CBC0982-E128-4DA3-8C33-BE2FDB0E1388}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AABA46FE-C9BE-4905-B5F6-A3296BD18122}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AABA46FE-C9BE-4905-B5F6-A3296BD18122}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AABA46FE-C9BE-4905-B5F6-A3296BD18122}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AABA46FE-C9BE-4905-B5F6-A3296BD18122}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

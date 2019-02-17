@@ -3,65 +3,74 @@
 		xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
 		xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
 		xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-		xmlns:local="clr-namespace:JSAM"
-		xmlns:BusinessLogic="clr-namespace:JSAM.BusinessLogic" x:Class="JSAM.MainWindow"
+	    x:Class="JSAM.MainWindow"
 		mc:Ignorable="d"
 		Title="JSAM Software" Height="Auto" Width="Auto">
 	<TabControl Margin="5">
-		<TabItem Header="Jobs">
+		<TabItem Header="Information Center" Height="22" VerticalAlignment="Bottom" Margin="2,0,-6,0">
 			<StackPanel Orientation="Horizontal">
-				<StackPanel Orientation="Vertical">
-					<TextBlock Text="Job List" Margin="5" />
-					<ComboBox Name="JobList" Width="390" Margin="5">
+				<StackPanel Orientation="Vertical" Width="Auto">
+					<TextBlock Text="Jobs" HorizontalAlignment="Center" Margin="5" />
+					<TextBlock Text="Job Name(Job ID)" Margin="8,0,0,0" />
+					<ComboBox Name="JobList" ItemsSource="{Binding Jobs}" Width="Auto" Margin="5" SelectionChanged="OnJobSelected">
 					</ComboBox>
-					<StackPanel Orientation="Horizontal" Margin="5">
-						<Button Name="GenerateJobs" Content="Get Jobs" Margin="5" />
-						<Button Name="RefreshJobs" Content="Refresh" Margin="5" />
-						<Button Name="ClearJobs" Content="Clear" Margin="5" />
+					<StackPanel Orientation="Vertical" Width="Auto" Margin="5">
+						<!--Current Job Information-->
+						<TextBlock Text="Job Information" HorizontalAlignment="Center" Margin="5" />
+						<StackPanel Orientation="Horizontal" Width="Auto" Margin="5">
+							<TextBlock Text="Job #:" Margin="5" />
+							<TextBlock Text="{Binding CurrentJob.Id}" Margin="5" Width="Auto" />
+							<TextBlock Text="Job Name" Margin="0,5" />
+							<TextBox Name="Job" Text="{Binding CurrentJob.JobName }" Margin="5" Width="Auto" />
+						</StackPanel>
+						<Separator />
+						<!--Manpower Information-->
+						<TextBlock Text="Manpower Needs" Margin="0,5" />
+						<TextBlock Text="{Binding CurrentJob.ManpowerNeeds}" Margin="0,5,-59,5" HorizontalAlignment="Left" Width="Auto" />
+						<TextBlock Text="Current Manpower" Margin="0,5" />
+						<TextBox   Name="CurrentManpower"  Margin="0,5" />
 					</StackPanel>
 				</StackPanel>
-			</StackPanel>
-		</TabItem>
-		<TabItem Header="Employees">
-			<StackPanel Orientation="Horizontal">
-				<StackPanel Orientation="Vertical" Width="Auto" Margin="5">
-					<TextBlock Text="Employee List" HorizontalAlignment="Center" />
-					<ComboBox Name="EmployeeList" ItemsSource="{Binding Employees}" Width="390" Margin="5" SelectionChanged="OnCustomerSelected" />
+				<StackPanel Orientation="Vertical" Width="Auto">
+					<TextBlock Text="Employees" HorizontalAlignment="Center" Margin="5" />
+					<TextBlock Text="Full Name" Margin="8, 0, 0, 0" />
+					<ComboBox x:Name="EmployeeList" ItemsSource="{Binding Employees}" Width="Auto" Margin="5" SelectionChanged="OnEmployeeSelected" />
 					<StackPanel Orientation="Vertical" Width="Auto" Margin="5">
 						<!--Emp Info about current job-->
 						<TextBlock Text="Employee Information" HorizontalAlignment="Center" Margin="5" />
 						<StackPanel Orientation="Horizontal" Width="Auto" Margin="5">
-							<TextBlock Text="Employee #:" Margin="5"/>
-							<TextBlock Text="{Binding CurrentEmployee.EmployeeID}" Margin="5" Width="75"/>
+							<TextBlock Text="Employee #:" Margin="5" />
+							<TextBlock Text="{Binding CurrentEmployee.Id}" Margin="5" Width="Auto" />
 							<TextBlock Text="First Name" Margin="0,5" />
-							<TextBox Name="First" Text="{Binding CurrentEmployee.FirstName}" Margin="5" Width="75" />
+							<TextBox x:Name="First" Text="{Binding CurrentEmployee.FirstName}" Margin="5" Width="Auto" />
 							<TextBlock Text="Last name" Margin="5" />
-							<TextBox Name="Last" Text="{Binding CurrentEmployee.LastName}" Margin="5" Width="75"/>
+							<TextBox x:Name="Last" Text="{Binding CurrentEmployee.LastName}" Margin="5" Width="Auto" />
 						</StackPanel>
-						<Separator/>
+						<Separator />
 						<!--Job Information-->
 						<TextBlock Text="Current Job (Name)" Margin="0,5" />
-						<TextBox Name="EmpCurrentJobName" Width="350" Margin="0,5" HorizontalAlignment="Left"/>
+						<TextBox x:Name="EmpCurrentJobName" Width="Auto" Margin="0,5" HorizontalAlignment="Left" />
 						<TextBlock Text="Current Job #" Margin="0,5" />
 						<StackPanel Orientation="Horizontal">
-							<TextBox Name="NewJobNumber" Text="{Binding CurrentEmployee.CurrentJob}" Width="65" Margin="0,5,5,5" HorizontalAlignment="Left" />
-							<Button Name="UpdateJobNumber" Content="Update" Margin="5" />
+							<TextBox x:Name="NewJobNumber" Text="{Binding CurrentEmployee.JobId, Mode=OneWay}" Width="Auto" Margin="0,5,5,5" HorizontalAlignment="Left"   />
+							<Button x:Name="UpdateJobNumber" Content="Update" Margin="5" Click="UpdateJobNumber_Click" />
 						</StackPanel>
 						<Separator />
 						<!--Emp info about work experience-->
 						<TextBlock Text="Employee Experience Information" HorizontalAlignment="Center" />
 						<TextBlock Text="Years of Service" />
-						<TextBox Name="YearsOfService" Width="65" IsEnabled="False" HorizontalAlignment="Left" Margin="0,5" />
+						<TextBox x:Name="YearsOfService" Width="Auto" IsEnabled="False" HorizontalAlignment="Left" Margin="0,5" />
 						<TextBlock Text="Certifications" />
-						<CheckBox Name="Certified" Content="Certified Electrician" />
-						<CheckBox Name="GeneratorTech" Content="Generator Certified" />
-						<CheckBox Name="Residential" Content="Residential" />
-						<CheckBox Name="Commercial_Industrial" Content="Commercial/Residential" />
+						<CheckBox x:Name="Certified" Content="Certified Electrician" />
+						<CheckBox x:Name="GeneratorTech" Content="Generator Certified" />
+						<CheckBox x:Name="Residential" Content="Residential" />
+						<CheckBox x:Name="Commercial_Industrial" Content="Commercial/Residential" />
 					</StackPanel>
 					<StackPanel Orientation="Horizontal">
-						<Button Name="RefreshEmp" Content="Refresh" Margin="5" />
-						<Button Name="ClearEmp" Content="Clear" Margin="5" />
+						<Button x:Name="RefreshEmp" Content="Refresh" Margin="5" />
+						<Button x:Name="ClearEmp" Content="Clear" Margin="5" />
 					</StackPanel>
+					<Border BorderBrush="Black" BorderThickness="1" Height="100" Width="100"/>
 				</StackPanel>
 			</StackPanel>
 		</TabItem>
