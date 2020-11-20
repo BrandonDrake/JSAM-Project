@@ -14,3 +14,19 @@ C:\Users\Brandon_Laptop\Documents\C# Projects\JSAM\JSAM.DataContext\obj\Debug\JS
 C:\Users\Brandon_Laptop\Documents\C# Projects\JSAM\JSAM.DataContext\obj\Debug\JSAM.DataContext.csproj.GenerateResource.cache
 C:\Users\Brandon_Laptop\Documents\C# Projects\JSAM\JSAM.DataContext\bin\Debug\JSAM.Classes.dll
 C:\Users\Brandon_Laptop\Documents\C# Projects\JSAM\JSAM.DataContext\bin\Debug\JSAM.Classes.pdb
+C:\Users\brandon.drake\Source\Repos\JSAM-Project\JSAM.DataContext\bin\Debug\JSAM.DataContext.dll.config
+C:\Users\brandon.drake\Source\Repos\JSAM-Project\JSAM.DataContext\bin\Debug\JSAM.DataContext.dll
+C:\Users\brandon.drake\Source\Repos\JSAM-Project\JSAM.DataContext\bin\Debug\JSAM.DataContext.pdb
+C:\Users\brandon.drake\Source\Repos\JSAM-Project\JSAM.DataContext\bin\Debug\EntityFramework.dll
+C:\Users\brandon.drake\Source\Repos\JSAM-Project\JSAM.DataContext\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\brandon.drake\Source\Repos\JSAM-Project\JSAM.DataContext\bin\Debug\JSAM.Classes.dll
+C:\Users\brandon.drake\Source\Repos\JSAM-Project\JSAM.DataContext\bin\Debug\JSAM.Classes.pdb
+C:\Users\brandon.drake\Source\Repos\JSAM-Project\JSAM.DataContext\bin\Debug\EntityFramework.xml
+C:\Users\brandon.drake\Source\Repos\JSAM-Project\JSAM.DataContext\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\brandon.drake\Source\Repos\JSAM-Project\JSAM.DataContext\obj\Debug\JSAM.DataContext.csprojAssemblyReference.cache
+C:\Users\brandon.drake\Source\Repos\JSAM-Project\JSAM.DataContext\obj\Debug\JSAM.DataContext.Migrations.Initial.resources
+C:\Users\brandon.drake\Source\Repos\JSAM-Project\JSAM.DataContext\obj\Debug\JSAM.DataContext.csproj.GenerateResource.cache
+C:\Users\brandon.drake\Source\Repos\JSAM-Project\JSAM.DataContext\obj\Debug\JSAM.DataContext.csproj.CoreCompileInputs.cache
+C:\Users\brandon.drake\Source\Repos\JSAM-Project\JSAM.DataContext\obj\Debug\JSAM.DataContext.csproj.CopyComplete
+C:\Users\brandon.drake\Source\Repos\JSAM-Project\JSAM.DataContext\obj\Debug\JSAM.DataContext.dll
+C:\Users\brandon.drake\Source\Repos\JSAM-Project\JSAM.DataContext\obj\Debug\JSAM.DataContext.pdb
