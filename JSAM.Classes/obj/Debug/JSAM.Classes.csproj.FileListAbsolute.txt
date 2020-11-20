@@ -4,9 +4,3 @@ C:\Users\Brandon_Laptop\Documents\C# Projects\JSAM\JSAM.Classes\obj\Debug\JSAM.C
 C:\Users\Brandon_Laptop\Documents\C# Projects\JSAM\JSAM.Classes\obj\Debug\JSAM.Classes.csproj.CoreCompileInputs.cache
 C:\Users\Brandon_Laptop\Documents\C# Projects\JSAM\JSAM.Classes\obj\Debug\JSAM.Classes.dll
 C:\Users\Brandon_Laptop\Documents\C# Projects\JSAM\JSAM.Classes\obj\Debug\JSAM.Classes.pdb
-C:\Users\brandon.drake\Source\Repos\JSAM-Project\JSAM.Classes\bin\Debug\JSAM.Classes.dll
-C:\Users\brandon.drake\Source\Repos\JSAM-Project\JSAM.Classes\bin\Debug\JSAM.Classes.pdb
-C:\Users\brandon.drake\Source\Repos\JSAM-Project\JSAM.Classes\obj\Debug\JSAM.Classes.csprojAssemblyReference.cache
-C:\Users\brandon.drake\Source\Repos\JSAM-Project\JSAM.Classes\obj\Debug\JSAM.Classes.csproj.CoreCompileInputs.cache
-C:\Users\brandon.drake\Source\Repos\JSAM-Project\JSAM.Classes\obj\Debug\JSAM.Classes.dll
-C:\Users\brandon.drake\Source\Repos\JSAM-Project\JSAM.Classes\obj\Debug\JSAM.Classes.pdb

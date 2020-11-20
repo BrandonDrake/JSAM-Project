@@ -52,27 +52,3 @@ C:\Users\Brandon_Laptop\Documents\C# Projects\JSAM\JSAM\bin\Debug\JSAM.DataConte
 C:\Users\Brandon_Laptop\Documents\C# Projects\JSAM\JSAM\bin\Debug\EntityFramework.xml
 C:\Users\Brandon_Laptop\Documents\C# Projects\JSAM\JSAM\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\Brandon_Laptop\Documents\C# Projects\JSAM\JSAM\obj\Debug\JSAM.csproj.CopyComplete
-C:\Users\brandon.drake\Source\Repos\JSAM-Project\JSAM\bin\Debug\JSAM.exe.config
-C:\Users\brandon.drake\Source\Repos\JSAM-Project\JSAM\bin\Debug\JSAM.exe
-C:\Users\brandon.drake\Source\Repos\JSAM-Project\JSAM\bin\Debug\JSAM.pdb
-C:\Users\brandon.drake\Source\Repos\JSAM-Project\JSAM\bin\Debug\EntityFramework.dll
-C:\Users\brandon.drake\Source\Repos\JSAM-Project\JSAM\bin\Debug\EntityFramework.SqlServer.dll
-C:\Users\brandon.drake\Source\Repos\JSAM-Project\JSAM\bin\Debug\JSAM.Classes.dll
-C:\Users\brandon.drake\Source\Repos\JSAM-Project\JSAM\bin\Debug\JSAM.DataContext.dll
-C:\Users\brandon.drake\Source\Repos\JSAM-Project\JSAM\bin\Debug\JSAM.Classes.pdb
-C:\Users\brandon.drake\Source\Repos\JSAM-Project\JSAM\bin\Debug\JSAM.DataContext.pdb
-C:\Users\brandon.drake\Source\Repos\JSAM-Project\JSAM\bin\Debug\JSAM.DataContext.dll.config
-C:\Users\brandon.drake\Source\Repos\JSAM-Project\JSAM\bin\Debug\EntityFramework.xml
-C:\Users\brandon.drake\Source\Repos\JSAM-Project\JSAM\bin\Debug\EntityFramework.SqlServer.xml
-C:\Users\brandon.drake\Source\Repos\JSAM-Project\JSAM\obj\Debug\JSAM.csprojAssemblyReference.cache
-C:\Users\brandon.drake\Source\Repos\JSAM-Project\JSAM\obj\Debug\MainWindow.baml
-C:\Users\brandon.drake\Source\Repos\JSAM-Project\JSAM\obj\Debug\MainWindow.g.cs
-C:\Users\brandon.drake\Source\Repos\JSAM-Project\JSAM\obj\Debug\App.g.cs
-C:\Users\brandon.drake\Source\Repos\JSAM-Project\JSAM\obj\Debug\JSAM_MarkupCompile.cache
-C:\Users\brandon.drake\Source\Repos\JSAM-Project\JSAM\obj\Debug\JSAM.g.resources
-C:\Users\brandon.drake\Source\Repos\JSAM-Project\JSAM\obj\Debug\JSAM.Properties.Resources.resources
-C:\Users\brandon.drake\Source\Repos\JSAM-Project\JSAM\obj\Debug\JSAM.csproj.GenerateResource.cache
-C:\Users\brandon.drake\Source\Repos\JSAM-Project\JSAM\obj\Debug\JSAM.csproj.CoreCompileInputs.cache
-C:\Users\brandon.drake\Source\Repos\JSAM-Project\JSAM\obj\Debug\JSAM.csproj.CopyComplete
-C:\Users\brandon.drake\Source\Repos\JSAM-Project\JSAM\obj\Debug\JSAM.exe
-C:\Users\brandon.drake\Source\Repos\JSAM-Project\JSAM\obj\Debug\JSAM.pdb
