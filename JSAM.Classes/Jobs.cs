@@ -24,7 +24,7 @@ namespace JSAM.Classes
         /// <param name="manpowerNeeds"></param>
         /// <param name="startDate"></param>
         /// <param name="endDate"></param>
-        //TODO
+        //@brandon_drake
         public Jobs(int Id, string jobName, int manpowerNeeds, DateTime startDate, DateTime endDate)
         {
             this.Id = Id;
